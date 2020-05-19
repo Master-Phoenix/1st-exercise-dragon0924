@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Hello",
+      "setup": "gcc Hello.c",
+      "run": "a.out",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
