@@ -12,8 +12,8 @@
     },
     {
       "name": "Sum",
-      "setup": "gcc Sum.c",
-      "run": "a.out",
+      "setup": "gcc -o Sum.c b.out",
+      "run": "./b.out",
       "input": "Sum(5,7)",
       "output": "12",
       "comparison": "included",
