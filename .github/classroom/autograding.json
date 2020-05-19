@@ -3,7 +3,7 @@
     {
       "name": "Hello",
       "setup": "gcc Hello.c",
-      "run": "a.out",
+      "run": "./a.out",
       "input": "",
       "output": "Hello World!",
       "comparison": "exact",
