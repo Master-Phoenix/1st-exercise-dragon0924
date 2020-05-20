@@ -12,9 +12,9 @@
     },
     {
       "name": "Sum",
-      "setup": "gcc -o Sum.c b.out",
-      "run": "./b.out 5 7",
-      "input": "",
+      "setup": "gcc Sum.c -o b.out",
+      "run": "./b.out",
+      "input": "5 7",
       "output": "12",
       "comparison": "included",
       "timeout": 10,
