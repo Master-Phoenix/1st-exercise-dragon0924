@@ -5,10 +5,10 @@ int Sum(int a, int b){
    return a+b;
 }
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
-   int a = atoi(argv[1]);
-   int b = atoi(argv[2]);
+   int a = stoi(argv[1]);
+   int b = stoi(argv[2]);
    int c = a+b;
    return c;
 }
