@@ -7,7 +7,10 @@ int Sum(int a, int b){
 
 int main(int argc, char **argv)
 {
+   for (int i = 0, i < argc, i++){
+      printf("%c", argv[i]);
+   }
    int a = atoi(argv[0]);
    int b = atoi(argv[1]);
-   printf('%d', Sum(a, b));
+   printf("%d", Sum(a, b));
 }
