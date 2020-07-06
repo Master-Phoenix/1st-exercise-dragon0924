@@ -9,5 +9,5 @@ int main(int argc, char *argv[])
 {
    int a = atoi(argv[1]);
    int b = atoi(argv[2]);
-   printf("%d",sum(a,b));
+   printf("%d",Sum(a,b));
 }
